@@ -1,0 +1,2 @@
+MONGODB_URI=mongodb+srv://ridabatool008:exafLUaQeSEmRkO8@cluster0.gry4a.mongodb.net/IMDb-clone?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=mysecreteKey
