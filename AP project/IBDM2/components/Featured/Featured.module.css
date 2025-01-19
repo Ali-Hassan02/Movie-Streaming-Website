@@ -1,0 +1,113 @@
+.featured {
+    height: 76vh;
+    position: relative;
+  }
+  
+  .category {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .genre { /* Local class applied to the select element */
+    cursor: pointer;
+    background-color: var(--main-color);
+    border: 1px solid white;
+    color: white;
+    margin-left: 20px;
+    padding: 5px;
+  }
+  
+  #genre {
+    z-index: 2;
+  }
+  
+  .featuredImg { /* Local class for the img in featured */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infoImg { /* Local class for the img in info */
+    width: 40vw;
+    margin-top: 100px;
+  }
+  
+  .desc {
+    margin: 20px 0px;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .play {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: var(--main-color);
+    gap: 5px;
+  }
+  
+  .more {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    gap: 5px;
+  }
+  
+  .span {
+    margin-left: 5px;
+  }
+  
+  .play {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black; /* Set text color to black */
+  }
+  
+  .play svg { /* Specifically target the PlayArrow icon */
+    fill: black; /* Set the icon color to black */
+  }
+  

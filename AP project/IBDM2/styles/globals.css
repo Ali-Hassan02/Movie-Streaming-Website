@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #171717;
+  --foreground: #ffffff; 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #171717;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background); /* Set black background globally */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body takes full height */
+  display: flex;
+  flex-direction: column;
+}

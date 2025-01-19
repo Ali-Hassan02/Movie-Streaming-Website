@@ -1,0 +1,28 @@
+.footerContainer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #666;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    margin-bottom: 0px;
+}
+  
+.footerLinks {  
+    margin-bottom: 10px;
+}
+  
+.footerLink {
+    margin: 0 15px;
+    color: #0066c0;
+    text-decoration: none;
+}
+  
+.footerLink:hover {
+    text-decoration: underline;
+}
+  
+.footerCopyright {
+    color: #666;
+}
+  
