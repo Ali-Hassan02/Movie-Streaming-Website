@@ -59,4 +59,10 @@ https://github.com/user-attachments/assets/18ad74c2-a569-4ec2-b21d-d1c02cf695d5
 
 https://github.com/user-attachments/assets/06f7dbda-88eb-4fb2-bc71-fdb45c51b04e
 
+## 🛠️ Tech Stack
 
+💻 Frontend , Backend : Next.js
+
+🗄️ Database: MongoDB (if applicable)
+
+🎨 Styling: CSS, Material-UI , Tailwind
