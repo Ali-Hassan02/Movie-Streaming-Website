@@ -66,3 +66,28 @@ https://github.com/user-attachments/assets/06f7dbda-88eb-4fb2-bc71-fdb45c51b04e
 🗄️ Database: MongoDB (if applicable)
 
 🎨 Styling: CSS, Material-UI , Tailwind
+
+
+## ⚙️ Installation & Setup
+
+### Clone the repository:
+
+git clone https://github.com/your-repo/movie-website.git
+cd movie-website
+
+### Install dependencies:
+
+npm install
+
+### Start the development server:
+
+npm run dev
+
+### Note
+First run Frontend on port 3000 
+
+Then run backend on port 3001 
+
+Open http://localhost:3000 in your browser for amazing movies.
+
+Open http://localhost:3001 for Admin panel
