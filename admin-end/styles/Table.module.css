@@ -1,0 +1,215 @@
+.Table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  /* margin-bottom: 0px; */
+}
+
+.Table th {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.Table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.Table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+
+
+.actionButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 1em;
+  margin: 0 5px;
+}
+
+
+.TableContainer {
+  max-width: 80%; /* Reduce table width */
+  margin: 0px auto;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+
+.Table thead th {
+  background-color: #343a40; /* Dark background for header */
+  color: #ffffff; /* White text */
+  font-weight: bold;
+}
+
+
+
+/* .paginationControls .page-item .page-link {
+  color: #007bff;
+  margin: 0 5px;
+  border: none;
+  background: none;
+  font-weight: bold;
+}
+
+
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px!important;
+  margin-top: auto;
+  height:90px;
+  padding-bottom: 10px;
+} */
+
+
+
+.sortButton {
+  background: transparent;    /* No background color */
+  border: none;               /* Remove border */
+  cursor: pointer;            /* Pointer cursor */
+  padding: 0;                 /* Remove padding */
+  margin-left: 8px;           /* Space between text and icon */
+  color: inherit;             /* Match color with text */
+  font-size: 0.9rem;          /* Adjust icon size */
+  display: inline-flex;       /* Align icon inline */
+  align-items: center;        /* Center align the icon */
+}
+
+.sortButton:hover {
+  color: #ffea00;             /* Add hover color */
+}
+
+.sortButton:focus {
+  outline: none;              /* Remove focus outline */
+}
+
+
+
+.addButton:hover {
+  background-color: #f4d32c;
+}
+
+.addButton {
+  background-color: #f1c40c; /* IMDb-like yellow */
+  color: #000;
+  padding: 0.5rem 1.25rem; /* Adjusted padding for a balanced look */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid #f1c40c; /* Border matches background */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  margin-bottom: 20px;
+  margin-right: 200px;
+  
+}
+
+.addButton:hover {
+  background-color: #f4d32c; /* Slightly darker shade on hover */
+  border-color: #f4d32c;
+
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between; /* Aligns items to opposite ends */
+  align-items: center; /* Vertically aligns the items to the center */
+  /* background-color:red; */
+}
+
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px!important;
+  margin-top: auto;
+  
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  gap: 4px; /* Slightly reduce gap */
+}
+
+.pageItem {
+  border-radius: 8px; /* More rounded corners */
+}
+
+.pageLink {
+  padding: 6px 10px; /* Reduced padding */
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px; /* Match border-radius with .pageItem */
+}
+
+.pageLink:hover:not([disabled]) {
+  background-color: #e0e0e0;
+}
+
+.pageLink[disabled] {
+  background-color: #eeeded;
+  color: #a3a1a1;
+  cursor: not-allowed;
+}
+
+.active .pageLink {
+  background-color: #ffa726;
+  color: #fff;
+}
+
+
+
+
+
+
+.MovieTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px !important; 
+  /* margin-bottom: 0px; */
+}
+
+.MovieTable th {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.MovieTable td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.MovieTable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.MovieTable thead th {
+  background-color: #343a40; /* Dark background for header */
+  color: #ffffff; /* White text */
+  font-weight: bold;
+}
+
+.MovieTableContainer {
+  max-width: 90%; /* Reduce table width */
+  margin: 0px auto;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+}

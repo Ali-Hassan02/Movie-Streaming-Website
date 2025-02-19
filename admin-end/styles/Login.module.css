@@ -1,0 +1,99 @@
+/* /styles/Login.module.css */
+.centeredImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centeredImage img {
+  max-width: 200px;
+  margin-top: 2%;
+}
+
+.longNarrowBox {
+  min-width: 27%; 
+  min-height: 32%;
+  border-radius: 8px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; 
+}
+
+.Portalheading {
+  font-size:32px;  
+  font-weight: bold;
+  color: #333;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.formStyle{
+  margin: 35px;
+  margin-top: 9%;
+}
+
+.formLabel {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 4px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.passwordContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgotPassword {
+  font-size: 14px;
+  color: #0073e6;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #f4d32c;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submitButton:hover {
+  background-color: #f1c40c;
+}
+
+.wrapper{
+  height: 70vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.errorMessage{
+  margin-top: -8px;
+  color: red;
+  margin-bottom: -8px;
+  font-size: 12px;
+}
